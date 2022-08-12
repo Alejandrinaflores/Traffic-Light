@@ -1,12 +1,79 @@
 
-/* 
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.traffic_light_container {
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90px;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
 
-*/
+.light {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: white 2px solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.red {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
+
+.orange {
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+}
+
+.green {
+    width: 60px;
+    height: 60px;
+    background-color: green;
+}
+
+.pink {
+    width: 60px;
+    height: 60px;
+    background-color: pink;
+}
+
+.buttons_container {
+    display: flex;
+}
+
+.button {
+    padding: 5px;
+    margin: 5px;
+}
+
+.red-shine {
+    box-shadow: 0 0 80px rgba(255, 0, 0, 0.925)
+}
+
+.green-shine {
+    box-shadow: 0 0 80px rgba(102, 255, 0, 0.918);
+}
+
+.orange-shine {
+    box-shadow: 0 0 80px rgba(255, 166, 0, 0.945);
+}
+
+.pink-shine {
+    box-shadow: 0 0 80px rgba(235, 9, 255, 0.856);
+}
